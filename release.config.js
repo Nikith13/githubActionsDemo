@@ -1,5 +1,5 @@
  module.exports = {
-    branches: ['mmogalla/pull_request_file'],
+    branches: ['main'],
     tagFormat: 'v${version}',
     plugins: [
       '@semantic-release/commit-analyzer',

@@ -19,6 +19,6 @@ jobs:
         npm install --save-dev @commitlint/config-conventional @commitlint/cli
     - name: Run semantic-release
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
       run: |
         npx semantic-release

@@ -1,0 +1,10 @@
+{
+  "name": "githubActionsDemo",
+  "version": "1.0.0",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "semantic-release": "^22.0.12"
+  }
+}
